@@ -1,0 +1,41 @@
+/* Ejemplo de Hoja de Estilo estilo CuerdOS/Brisa */
+QMainWindow {
+    background-color: #1e1e1e;
+}
+
+QTabWidget::pane {
+    border: 1px solid #333333;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background: #252525;
+    color: #aaaaaa;
+    padding: 8px 15px;
+    border: 1px solid #333333;
+}
+
+QTabBar::tab:selected {
+    background: #2e7d32;
+    color: white;
+}
+
+QTreeView {
+    background-color: #1e1e1e;
+    alternate-background-color: #252525;
+    border: none;
+    color: #dddddd;
+}
+
+QTreeView::item:selected {
+    background-color: #2e7d32;
+    color: white;
+}
+
+QLineEdit {
+    background-color: #252525;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+}
